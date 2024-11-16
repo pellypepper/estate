@@ -114,15 +114,7 @@ nav ul li, nav ul li p{
     cursor: pointer;
 }
 
-.active{
-    color: var(--maincolor);
-}
-nav .active:hover{
-    background-color: var(--maincolor);
-    padding: 7px;
-    color: var(--primarycolor);
-    border-radius: var(--radius);
-}
+
 
 
 nav ul li , nav ul li p{
@@ -146,14 +138,7 @@ flex-direction: column;
     border-radius: var(--radius);
     color: var(--primarycolor);
 }
-.home-icon div:hover{
-    background-color: var(--primarycolor);
-    border: 2px solid var(--maincolor);
-    color: var(--maincolor);
-   
 
-
-}
 .submenu-container{
     position: relative;
 }

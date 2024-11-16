@@ -43,10 +43,14 @@ footer{
 .footer-grid-4 form input{
  height: 50px;
  width: 100%;
+ outline: none;
+ border: none;
+ padding: 10px;
 
 }
 
 .footer-grid-4 form button{
+
     height: 50px;
     width: 100%;
     background-color: var(--primarycolor);
@@ -83,7 +87,7 @@ footer{
 
 @media screen and (max-width: 481px){
     .footer-grid{
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
     }
     .footer-grid-1 li{
        
