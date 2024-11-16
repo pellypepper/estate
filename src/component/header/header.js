@@ -101,7 +101,7 @@ export default function Header() {
 
                             <NavLink to={ROUTES.Home} className="li active"><li className="li" >Home</li></NavLink>
                             <li className="submenu-container">
-    <a onClick={handleDropdownToggle} className="li active">Listing</a>
+    <p onClick={handleDropdownToggle} className="li active">Listing</p>
     {dropdownOpen && (
         <div className="submenu-wrapper">
             <ul>
@@ -116,7 +116,7 @@ export default function Header() {
     )}
 </li>
 
-                            <li><a className="li active" href="#">Contact</a></li>
+                            <li><p className="li active" href="#">Contact</p></li>
                         </ul>
                     </nav>
 
