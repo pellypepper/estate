@@ -1,37 +1,26 @@
-.home-section-1{
+.home-section-1 {
     padding: 20px;
-     height: 700px;
-     width: 100%;
-     animation: bganimate 12s infinite ease-in-out;
-     background-size: cover;
-     background-position: center;
- 
- }
- 
- @keyframes bganimate{
-     0%{
-         background-image: url('../../assets/bg1.jpg');
-         transition: ease-in-out;
-    
-     }
-     50%{
-         background-image: url('../../assets/bg2.jpg');
-         transition: ease-in-out;
-     }
-     /* 50%{
-         background-image: url('../../assets/bg3.jpg');
-         transition: ease-in-out;
-     } */
-     /* 75%{
-         background-image: url('../../assets/bg4.jpg');
-         transition: ease-in-out;
-     } */
-     100%{
-         background-image: url('../../assets/bg5.jpg');
-         transition: ease-in-out;
-     }
- }
- 
+    height: 700px;
+    width: 100%;
+    animation: bganimate 12s infinite linear;
+    background-size: cover;
+    background-position: 0 0; /* Start position of the image */
+    background-image: url('../../assets/bg1.jpg');
+}
+
+/* Keyframes for background animation */
+@keyframes bganimate {
+    0% {
+        background-position: 0 0; /* Initial position */
+    }
+    50% {
+        background-position: 100% 100%; /* Move to the other corner */
+    }
+    100% {
+        background-position: 0 0; /* Return to the initial position */
+    }
+}
+
  .home-section-1-text{
      display: flex;
      flex-direction: column;
