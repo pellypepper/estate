@@ -31,7 +31,7 @@ ul{
 nav ul li{
    
     text-decoration: underline;
-    text-decoration-skip: ink;
+    text-decoration-skip-ink: auto;
    
     display: inline;
     margin: 0 5px;
