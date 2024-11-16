@@ -53,6 +53,9 @@
      background-color: var(--maincolor);
      color: var(--primarycolor);
      font-size: var(--desk-smallfont);
+     border: none;
+        cursor: pointer;
+        outline: none;
  }
  button:hover{
      background-color: var(--primarycolor);
