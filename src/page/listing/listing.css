@@ -200,6 +200,7 @@
 
     .listing-section-1 .listing-section-1-text h1 {
         font-size: var(--mob-bigfont);
+    text-align: center;
     }
     .listing-container {
         grid-template-columns: 1fr;
