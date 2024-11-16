@@ -87,7 +87,7 @@ export default function Header() {
     return (
         <header>
             <div className="logo-container">
-                <h1>Logo</h1>
+                <h1>DEE<span>HOMES</span></h1>
             </div>
 
             {/* Display the menu section only on screens smaller than 768px or if the menu is open */}
