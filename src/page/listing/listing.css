@@ -45,7 +45,7 @@
 }
 
 .listing-section-1 p {
-    font-size: var(--font-medium);
+    font-size: var(--desk-mediumfont);
     font-weight: 600;
 }
 
@@ -108,7 +108,7 @@
 }
 
 .listing-section-3 {
-    background-image: url(../../assets/bg28.jpg);
+    background-image: url(../../assets/bg27.jpg);
     background-size: cover;
     background-position: center;
     color: var(--primarycolor);
@@ -140,6 +140,11 @@
 
 .listing-section-3 p {
     font-size: var(--desk-mediumfont);
+    font-weight: bold;
+    color: var(--subcolor);
+}
+.rent-section-3 p {
+   
     color: var(--primarycolor);
 }
 .rent-section-3{
@@ -148,7 +153,7 @@
 .rent-section-1{
     background-image: url(../../assets/bg27.jpg);
 }
-.rent-section-1 h1{
+.rent-section-1 .listing-section-1-text h1{
     color:  var(--secondarycolor);
 }
 .rent-section-3 .listing-icon{
@@ -193,7 +198,7 @@
         padding: var(--spacing-medium);
     }
 
-    .listing-section-1 h1 {
+    .listing-section-1 .listing-section-1-text h1 {
         font-size: var(--mob-bigfont);
     }
     .listing-container {

@@ -72,8 +72,12 @@ footer{
     }
     .footer-grid{
         grid-template-columns: 1fr 1fr;
+     
     }
     .footer-grid-1{
+        text-align: center;
+    }
+    .footer-grid-4{
         text-align: center;
     }
     .footer-grid-4 form input{

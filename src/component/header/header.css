@@ -183,7 +183,7 @@ padding: 10px;
 
    
 }
-.submenu-wrapper ul li a:hover{
+/* .submenu-wrapper ul li a:hover{
     color: var(--maincolor);
 
 }
@@ -191,7 +191,7 @@ padding: 10px;
     background-color: var(--primarycolor);
 
  
-}
+} */
 .menu-icon, .close-icon{
     display: none;
 }

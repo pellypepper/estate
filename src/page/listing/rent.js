@@ -13,7 +13,7 @@ const listingDetails = [
         img: "imagess/bg14.jpg",
         address: "Bellmont Hall",
         details: "The Natural Place To Live",
-        info: "he site offers a rare opportunity for development in such a sought after location with proposed access from the already established Allott Close Development. (1.30 acres). AmenitiesWith easy access to the M18 (M1) motorway "
+        info: "The site offers a rare opportunity for development in such a sought after location with proposed access from the already established Allott Close Development. (1.30 acres). AmenitiesWith easy access to the M18 (M1) motorway "
     },
     {
         img: "imagess/bg15.jpg",
