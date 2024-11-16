@@ -1,3 +1,5 @@
+
+
 header{
     width: 80%;
     background-color: var(--primarycolor);
@@ -16,7 +18,78 @@ header section {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
+}/* Main container for the logo */
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px; /* Reduce letter-spacing for a more compact look */
+    position: relative;
+    padding: 10px; /* Adjust padding to make the container smaller */
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1); /* Soft shadow for a floating effect */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: auto; /* Allow it to shrink based on content */
+    max-width: 120px; /* Set a max width to control size */
+    text-align: center; /* Ensure text is centered */
+  }
+  
+  /* Hover effect to scale the logo and add depth */
+  .logo-container:hover {
+    transform: scale(1.05); /* Slightly smaller scale for a subtle effect */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Main title with primary color */
+  .logo-container h1 {
+    color: var(--maincolor);
+    font-size: var(--desk-smallfont); /* Adjust font size for reduced width */
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    margin: 0; /* Remove margin for a tighter fit */
+  }
+  
+  /* Adding a gradient effect to the primary color */
+  .logo-container h1 {
+    background: linear-gradient(to right, var(--maincolor), var(--secondarycolor));
+    -webkit-background-clip: text;
+    color: transparent; /* Makes the text color transparent to show the gradient */
+  }
+  
+  /* Applying a subtle shadow around the text for depth */
+  .logo-container h1::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.15); /* Soft shadow for depth */
+    z-index: -1;
+    filter: blur(8px);
+    transform: scale(1.05);
+  }
+  
+  /* Style for a special highlight (the span within h1) */
+  .logo-container h1 span {
+    color: var(--secondarycolor); /* Different color for emphasis */
+    font-size: var(--desk-smallfont); /* Adjust span size */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow effect */
+    letter-spacing: 1px;
+  }
+  
+  /* Add a slight 3D effect when hovering on the span */
+  .logo-container h1 span:hover {
+    transform: translateY(-5px);
+    transition: transform 0.2s ease;
+  }
+  
+  
 a{
     text-decoration: none;
 }
@@ -35,7 +108,7 @@ nav ul li, nav ul li p{
    
     display: inline;
     margin: 0 5px;
-  font-size: var(--desk-mediumfont);
+  font-size: var(--mob-mediumfont);
   
 
     cursor: pointer;
@@ -138,6 +211,24 @@ padding: 10px;
     display: none;
 }
 
+
+@media screen and (max-width: 481px){
+    .logo-container{
+      
+        max-width: 100px;
+       
+    }
+    .logo-container h1 span {
+     /* Different color for emphasis */
+        font-size: var(--mob-smallfont); /* Adjust span size */
+       
+      }
+      .logo-container h1  {
+        /* Different color for emphasis */
+           font-size: var(--mob-smallfont); /* Adjust span size */
+          
+         }
+}
 @media screen and (max-width: 768px){
     header{
         background-color: inherit;
@@ -225,6 +316,10 @@ padding: 10px;
         color:  var(--primarycolor);
     }
 }
+     
+   
+      
+
 
 @media screen and (min-width: 875px){
   
@@ -236,6 +331,22 @@ padding: 10px;
     
 
     }
+    .logo-container{
+      
+        max-width: 140px;
+       
+    }
+    .logo-container h1 span {
+     /* Different color for emphasis */
+        font-size: var(--desk-mediumfontfont); /* Adjust span size */
+       
+      }
+      .logo-container h1  {
+        /* Different color for emphasis */
+           font-size: var(--desk-mediumfontfont); /* Adjust span size */
+          
+         }
+     
   
      .home-icon div{
  
