@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+  background-color: white;
+}
+
+:root{
+  --maincolor : #214475;;
+  --primarycolor: white;
+  --subcolor: black;
+  --secondarycolor : orange;
+  --large-smallfont : 1rem;
+  --large-mediumfont : 1.3rem;
+  --large-averagefont : 2.1rem;
+  --large-bigfont : 2.8rem;
+  --desk-smallfont : .9rem;
+  --desk-mediumfont : 1.2rem;
+  --desk-averagefont : 2rem;
+  --desk-bigfont : 2.5rem;
+  --mob-smallfont : .7rem;
+  --mob-mediumfont : 1rem;
+  --mob-averagefont : 1.3rem;
+  --mob-bigfont : 1.8rem;
+  --radius: 20px;
+}
