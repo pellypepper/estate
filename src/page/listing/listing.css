@@ -44,7 +44,7 @@
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
 }
 
-.listing-section-1 p {
+.listing-section-1 .listing-section-1-text p {
     font-size: var(--desk-mediumfont);
     font-weight: 600;
 }

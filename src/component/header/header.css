@@ -101,14 +101,21 @@ ul{
    
     list-style: none;
 }
-nav ul li, nav ul li p{
+nav ul li p{
+    display: inline;
+    margin: 0 5px;
+    font-size: var(--desk-mediumfont);
+    cursor: pointer;
+ 
+}
+nav ul li{
    
     text-decoration: underline;
     text-decoration-skip-ink: auto;
    
     display: inline;
     margin: 0 5px;
-  font-size: var(--mob-mediumfont);
+
   
 
     cursor: pointer;
