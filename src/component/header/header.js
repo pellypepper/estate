@@ -99,7 +99,7 @@ export default function Header() {
                                 <CloseIcon onClick={toggleClose} />
                             </div>
 
-                            <NavLink to={ROUTES.Home} className="li active"><li className="li" >Home</li></NavLink>
+                            <NavLink to={ROUTES.Home} className="li active"><li className="li" ><p>Home</p></li></NavLink>
                             <li className="submenu-container">
     <p onClick={handleDropdownToggle} className="li active">Listing</p>
     {dropdownOpen && (

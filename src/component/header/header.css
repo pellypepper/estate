@@ -104,7 +104,7 @@ ul{
 nav ul li p{
     display: inline;
     margin: 0 5px;
-    font-size: var(--desk-mediumfont);
+    font-size: var(--mob-mediumfont);
     cursor: pointer;
  
 }
@@ -313,7 +313,7 @@ padding: 10px;
       
 
 
-@media screen and (min-width: 875px){
+@media screen and (min-width: 769px){
   
     nav ul li{
         display: inline;
@@ -322,6 +322,12 @@ padding: 10px;
       
     
 
+    }
+    nav ul li p:hover {
+       background-color: var(--maincolor);
+       padding: 10px;
+       border-radius: var(--radius);
+       color: var(--primarycolor);
     }
     .logo-container{
       
@@ -338,25 +344,34 @@ padding: 10px;
            font-size: var(--desk-mediumfontfont); /* Adjust span size */
           
          }
+         .submenu-wrapper{
+            margin-top: 1.5rem;
+         }
      
   
      .home-icon div{
  
-        font-size: var(--desk-mediumfont);
+        font-size: var(--desk-smallfont);
+     }
+     .home-icon div:hover{
+        color: var(--maincolor);
+        border: 2px solid var(--maincolor);
+        background-color: inherit;
      }
 
 }
    
-@media screen and (min-width: 1100px){
+@media screen and (min-width: 1024px){
 
   
     nav ul li{
  
     margin: 0 25px;
- 
+    font-size: var(--large-smallfont);
+    }
   
 
-}
+
 .home-icon {
   
 
@@ -365,7 +380,38 @@ padding: 10px;
     
 .home-icon div{
     flex-direction: row;
-    font-size: var(--desk-mediumfont);
+    font-size: var(--large-smallfont);
  }
+ .submenu-wrapper{
+    margin-top: 1.3rem;
+ }
+
+
+}
+@media screen and (min-width: 1200px){
+
+  
+    nav ul li{
+ 
+    margin: 0 25px;
+    font-size: var(--desk-mediumfont);
+    }
+  
+
+
+.home-icon {
+  
+
+    gap: 2rem;
+}
+    
+.home-icon div{
+    flex-direction: row;
+    font-size: var(--large-mediumfont);
+ }
+ .submenu-wrapper{
+    margin-top: 1.2rem;
+ }
+
 
 }
