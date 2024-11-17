@@ -383,7 +383,7 @@
  /* Class for elements to fade in */
  .fadeIn {
      opacity: 1;
-     animation: fadeInUp 2s ease-out forwards;
+     animation: fadeInUp .5s ease-out forwards;
  }
  
  @media screen and (max-width: 481px){
