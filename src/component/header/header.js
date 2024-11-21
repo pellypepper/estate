@@ -6,13 +6,8 @@ import CloseIcon from '@mui/icons-material/Close';
 import {  NavLink } from "react-router-dom";
 import "./header.css";
 
-export const ROUTES = {
-    
-    Home: "/",
-    Listing: "/listing",
-    Rent: "/rent"
-  
-  };
+import { ROUTES } from "../routes/route";
+
 
 export default function Header() {
     const [dropdownOpen, setDropdownOpen] = useState(false);
@@ -110,7 +105,7 @@ export default function Header() {
                             </div>
                             <NavLink className="submenu" to={ROUTES.Listing}>  <li>Property For Sale</li></NavLink>
                             <NavLink className="submenu"  to={ROUTES.Rent}> <li>Property For Rent</li></NavLink>
-                            <NavLink className="submenu"  to={ROUTES.Rent}>   <li>All Available Properties</li></NavLink>
+                        
             </ul>
         </div>
     )}

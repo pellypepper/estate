@@ -28,3 +28,12 @@ body{
   --mob-bigfont : 1.8rem;
   --radius: 20px;
 }
+
+ul {
+  list-style: none;
+
+}
+
+li{
+  text-decoration: none;
+}

@@ -5,32 +5,38 @@ footer{
     color: var(--primarycolor);
     display: flex;
     flex-direction: column;
-    
+
 }
+
 .footer-icon-wrapper{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 2rem;
+
 }
 .footer-grid{
-    margin: 0 auto;
-    margin-top: 1.5rem;
-  
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1rem;
-    width: 80%;
+
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+
     
 
 }
-
+.footer-grid-1 ul li .menu{ 
+    color: var(--primarycolor);
+    text-decoration: none;
+}
 
 .footer-grid-1{
-    line-height: 3rem;
+    cursor: pointer;
+    line-height: 2rem;
 }
-.footer-grid-4{
-    line-height: 3rem;
+
+
+.footer-grid-1 ul{
+  margin-top: rem;
 }
 .footer-grid-1 li{
     list-style: none;
@@ -40,30 +46,17 @@ footer{
  
     font-size: var(--desk-mediumfont);
 }
-.footer-grid-4 form input{
- height: 50px;
- width: 100%;
- outline: none;
- border: none;
- padding: 10px;
-
-}
-
-.footer-grid-4 form button{
-
-    height: 50px;
-    width: 100%;
-    background-color: var(--primarycolor);
-    color: var(--maincolor);
-    border: none;
+.footer-grid-4{
     cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-
-.footer-grid-4 form button:hover{
-
-    background-color: var(--maincolor);
-    color: var(--primarycolor);
-  
+.copyright{
+    text-align: center;
+    margin-top: 1rem;
+    font-size: var(--desk-smallfont);
 }
 
 @media screen and (max-width: 768px){
@@ -71,20 +64,30 @@ footer{
         padding: 20px;
     }
     .footer-grid{
-        grid-template-columns: 1fr 1fr;
+
+flex-direction: column;
      
     }
     .footer-grid-1{
         text-align: center;
+
+
     }
     .footer-grid-4{
         text-align: center;
     }
-    .footer-grid-4 form input{
-        width: 100%;
+    .footer-grid-1 .grid{
+        margin-top: .7rem;
     }
-    .footer-grid-4 form button{
+    .footer-grid-4{
+
         width: 100%;
+        grid-area: footer-grid-4;
+    }
+
+
+    .footer-icon-wrapper{
+        margin-top: 1.5rem;
     }
     
 }

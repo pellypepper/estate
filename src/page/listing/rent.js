@@ -11,43 +11,41 @@ import "./listing.css";
 const listingDetails = [
     {
         img: "imagess/bg14.jpg",
-        address: "Bellmont Hall",
-        details: "The Natural Place To Live",
-        info: "The site offers a rare opportunity for development in such a sought after location with proposed access from the already established Allott Close Development. (1.30 acres). AmenitiesWith easy access to the M18 (M1) motorway "
+        address: "Betley Drive",
+        details: "Luxury Living in Harmony with Nature",
+        info: "Nestled within lush greenery, this exquisite property offers a serene escape from city life. With convenient access to major motorways and modern amenities, it’s an ideal blend of tranquility and connectivity."
     },
     {
         img: "imagess/bg15.jpg",
-        address: "Cedar Street",
-        details: "2-3 Bedroom Apartments",
-        info: "An exceptionally rare opportunity to acquire a substantial detached family residence standing in wooded grounds totalling 0.6 acre. 'Woodside' is an individual, period property located on an exclusive road "
+        address: "Allen Avenue",
+        details: "Spacious Apartments with Contemporary Design",
+        info: "Discover a perfect blend of style and comfort in these 2-3 bedroom apartments, set within a vibrant neighborhood. Ideal for families and professionals, these homes offer sleek interiors and a prime location."
     },
     {
         img: "imagess/bg16.jpg",
-        address: "Bellmont Hall",
-        details: "Final Phase Now Selling",
-        info: "A magnificent period home in a semi-rural setting, surrounded by fields and farmland, located in the heart of the village."
+        address: "MarkStemp Street",
+        details: "Exclusive Homes in a Prime Location",
+        info: "Experience the final phase of this distinguished development featuring premium homes. Located in a charming village, these properties provide a perfect mix of luxury and rural appeal."
     },
     {
         img: "imagess/bg18.jpg",
-        address: "TredFast Rd",
-        details: "Stunning Rural Location",
-        info: "This unique FOUR BEDROOM property offers the chance of independent living with separate living accommodation upstairs. Having been adapted by the current owners, the property offers flexible living opportunities..."
+        address: "Greewnwich Rd",
+        details: "Exceptional Country Retreat",
+        info: "This stunning four-bedroom home offers versatile living spaces, perfect for families seeking a peaceful countryside setting. Enjoy breathtaking views and modern comforts in this uniquely designed property."
     },
     {
         img: "imagess/bg19.jpg",
-        address: "StedGroove Rd",
-        details: "A Rare Opportunity",
-        info: "****VIEWING IS ESSENTIAL TO FULLY APPRECIATE WHAT THIS PROPERTY HAS TO OFFER****Set within the charming and picturesque village of Clayton is a rare opportunity to purchase this exceptionally spacious bright and airy..."  
-      },
-
-        
-        {
-            img: "imagess/bg20.jpg",
-            address: "ParkView Lane",
-            details: "Offer In Excess",
-            info: "This exceptional detached property with NO VENDOR CHAIN, featuring four spacious bedrooms, newly refurbished bathrooms, a well-equipped kitchen, three reception rooms with garden views, and charming outdoor spaces including a double garage"    }
-    
-    ];
+        address: "HillsBag Rd",
+        details: "A Distinctive Family Home",
+        info: "This spacious and elegantly designed property is set within a picturesque village. Featuring bright interiors and thoughtfully planned spaces, it offers an unparalleled living experience in a sought-after area."
+    },
+    {
+        img: "imagess/bg20.jpg",
+        address: "Yellowood Lane",
+        details: "Sophistication Meets Convenience",
+        info: "A meticulously refurbished detached property featuring four expansive bedrooms, state-of-the-art kitchens and bathrooms, and an inviting garden with ample outdoor space. Perfect for family living."
+    }
+];
 
 
 export default function Rent() {
