@@ -3,6 +3,8 @@
 Welcome to the **Real Estate Website**! This application allows users to check available properties and contact the admin for inquiries. Built with React and styled using Bootstrap, this website provides an intuitive and responsive user experience.
 <img width="1920" height="2770" alt="screencapture-pellyestate-netlify-app-2025-07-10-15_24_26" src="https://github.com/user-attachments/assets/b10e754a-a202-4522-a408-26a94f8e9dcf" />
 
+
+live demo : https://pellyestate.netlify.app/
 ## Table of Contents
 
 - [Features](#features)
@@ -12,7 +14,7 @@ Welcome to the **Real Estate Website**! This application allows users to check a
 - [Deployment](#deployment)
 - [License](#license)
 - [Contributing](#contributing)
-live demo : https://pellyestate.netlify.app/
+
 ## Features
 
 - **Browse Properties**: Users can view a list of available properties with details such as images, descriptions, and pricing.
